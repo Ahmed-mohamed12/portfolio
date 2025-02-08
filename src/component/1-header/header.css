@@ -1,0 +1,130 @@
+header {
+  padding: 22px 2.4rem;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+header nav {
+  background-color: var(--bgheader);
+  padding: 1rem 2rem;
+  border-radius: 15px;
+  box-shadow: 1px 1px 40px rgba(71, 69, 69, 0.352);
+  
+}
+header nav ul {
+  display: flex;
+  gap: 20px;
+}
+header nav a {
+  color: var(--title-color);
+  font-size: 0.88rem;
+  font-weight: bold;
+  line-height: 1.5;
+  transition: var(--main-transition);
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+header nav a:hover {
+  color: var(--blue);
+}
+
+@media (max-width: 768px) {
+  header nav {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .menue {
+    display: none !important;
+  }
+}
+/* -------------------------------modal------------------------------- */
+.fixed {
+  top: -10px;
+  left: -100%;
+  position: fixed;
+  width: 100%;
+  background-color: transparent;
+  z-index: 3;
+  height: 100vh;
+  box-shadow: 0 0 0 1 rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+}
+.fixed nav.phoneNav {
+  height: 100%;
+  width: 80%;
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 0;
+  position: relative;
+  left: 0;
+  transition: var(--main-transition);
+  z-index: 999;
+}
+/*....................*/
+
+.fixed nav a {
+  color: var(--title-color);
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  height: 20%;
+  border-bottom: 2px solid var(--devider);
+}
+.fixed nav.phoneNav a:last-child{
+    border: none;
+}
+.fixed nav.phoneNav a:hover {
+  background-color: rgb(0 0 0 /50%);
+}
+header .fixed nav.phoneNav h3:first-child,.menue{
+    /* background-color: var(--bgheader); */
+    width: 2.4rem;
+    height: 2.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: var(--subtitle-color);
+    /* border: 1px solid var(--border); */
+    transition: var(--main-transition);
+
+}
+.menue,.mood:hover{
+    color:  var(--icon-hover);
+}
+.mood{
+  background-color: var(--bgheader);
+  height: 2.4rem;
+  width: 2.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+cursor: pointer;
+  border-radius: 50%;
+  color:var(--subtitle-color);
+  transition: var(--main-transition);
+  /* border: 1px solid var(--border); */
+  font-size: large;
+}
+.mood:hover{
+  color: var(--icon-hover)
+}
+header .fixed nav.phoneNav h3:first-child {
+  text-align: right;
+  border: 2px solid var(--devider);
+  width: fit-content;
+  padding: 1px;
+  display: flex;
+  position: absolute;
+  top: 50px;
+  right: 30px;
+}
+/*  */
