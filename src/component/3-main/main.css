@@ -55,6 +55,7 @@ color: var(--icon-hover);
     gap: 40px;
 }
 .right-sec .box{
+position: relative;
    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0,16),1px 1px 1px rgba(0, 0, 0, 0,15);
    border-radius: 6px;
    overflow: hidden;
@@ -68,6 +69,7 @@ color: var(--icon-hover);
    
 
 }
+
 .right-sec .box:hover{
   transform: translateY(-10px);
   box-shadow: 0 2px 15px rgb(0 0 0 / 20%);
@@ -76,6 +78,7 @@ color: var(--icon-hover);
 }
 .light .right-sec .box{
     border-color: #0000005e;
+    position: relative;
 }
 .right-sec .box img{
     width: 100%;
@@ -83,7 +86,10 @@ color: var(--icon-hover);
 
 }
 .right-sec .box .content{
-    padding: 20px;
+    padding:20px;
+    margin-bottom: 70px;
+    
+   
 
 }
 .right-sec .box .content h2{
@@ -102,6 +108,12 @@ color: var(--icon-hover);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-height: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px !important;
 
 }
 .right-sec .box .info .icons{

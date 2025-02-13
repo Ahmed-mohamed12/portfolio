@@ -12,22 +12,24 @@ export default function Main() {
       <>
       <div className="box">
       <a key={pro.id}href={pro.demo} target="-blank" >
-        <img className="main-img" src={"../../../cat-05.jpg"} alt="Project" />
+        <div style={{width:"100%",height:"40%",minHeight:"40%"}}>
+
+        <img className="main-img" src={pro.img} alt="Project" style={{minHeight:"100%",height:"100%"}} />
+        </div>
         
         <div className="content">
           <h2>{pro.title}</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit
+            {pro.description}
           </p>
         </div>
        </a>
 
-        <div className="info">
+        <div className="info" >
           <span className="icons">
-            <span className="icon-link"></span>
             <a target="_blank" href={pro.repo}><span className="icon-github"></span></a>
           </span>
-          <a className="link" href={pro.demo}>Live Demo <span style={{alignSelf:"end",marginLeft:"2px"}} className="icon-arrow-right"></span></a>
+          <a className="link" href={pro.demo} target="-blank">Live Demo <span style={{alignSelf:"end",marginLeft:"2px"}} className="icon-arrow-right"></span></a>
         </div>
       </div>
       </>
