@@ -15,7 +15,7 @@ export const ProjectsArray = [
       title: 'E-commerce with react js',
       description:"Dynamic e-commerce platform for seamless online shopping experience.",
       key:"all projects react",
-      demo:'https://e-commerce-react-psi-rose.vercel.app/',
+      demo:'https://react-ecommerceone.netlify.app/',
       repo:" https://github.com/Ahmed-mohamed12/E-commerce?tab=readme-ov-file",
       img:`${re_ecommerce}`
     },
