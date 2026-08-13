@@ -24,7 +24,7 @@ export const ProjectsArray = [
       title: 'Prayer times with react js ',
       description:"React app for accurate prayer times and daily reminders.",
       key:"all projects react",
-      demo:`https://prayers-times12.netlify.app/`,
+      demo:`https://prayer-times-with-react-js.vercel.app/`,
       repo:"https://github.com/Ahmed-mohamed12/Prayer-times-with-react-js/tree/main",
       img:`${Prayer_times}`
 
@@ -35,8 +35,8 @@ export const ProjectsArray = [
       title: 'social media project  ',
       description:"social media project made with javaScript && api.",
       key:"all projects javascript",
-      demo:`https://thriving-cendol-a06811.netlify.app/`,
-      repo:"https://github.com/Ahmed-mohamed12/social-media-project",
+      demo:`https://social-media-project-delta-navy.vercel.app/`,
+      repo:"https://github.com/Ahmed-mohamed12/social-media-project.git",
       img:`${js_api}`
 
 
@@ -57,7 +57,7 @@ export const ProjectsArray = [
       title: 'CRUD application for managing product inventory   ',
       description:"CRUD application for managing product inventory, allowing users to create, read, update, and delete product listings efficiently.",
       key:"all projects javascript",
-      demo:`https://1crud-system.netlify.app/ `,
+      demo:`https://ahmed-mohamed12.github.io/crud/ `,
       repo:"https://github.com/Ahmed-mohamed12/crud",
       img:`${crud}`
 
@@ -90,8 +90,8 @@ export const ProjectsArray = [
       title: 'React application for managing loan applications ',
       description:"React application for managing loan applications, which is characterized by ensuring that the loan application is eligible.",
       key:"react",
-      demo:`https://capable-phoenix-2e3840.netlify.app/`,
-      repo:"https://github.com/Ahmed-mohamed12/Elzero-templet-1-html-css?tab=readme-ov-file",
+      demo:`https://loan-applications.vercel.app/`,
+      repo:"https://github.com/Ahmed-mohamed12/loan-applications.git",
       img:`${loan}`
 
 
